@@ -1,0 +1,50 @@
+    1  rm ~/.bash_history
+    2  git config --global user name "Kateryna Kavetska"
+    3  clear
+    4  git config --global user.name "Kateryna Kavetska"
+    5  git config --global user.email "katerinakavetskaya@gmail.com"
+    6  ls -l
+    7  cd HW#10 Git
+    8  cd /c/Users/denis/Desktop/HW10
+    9  touch https://github.com/KaterynaKavetska/HW_10.git
+   10  clear
+   11  git clone https://github.com/KaterynaKavetska/HW_10.git
+   12  cd HW_10/
+   13  touch text_ignore.txt
+   14  git status
+   15  git add.
+   16  git add. .gitignore
+   17  git add. .gitignore
+   18  git add .gitignore
+   19  git commit -m "First commit"
+   20  git add .
+   21  git commit -m "First commit"
+   22  git commit -m "First commit1"
+   23  git add text_ignore.txt
+   24  clear
+   25  touch main_test.txt
+   26  git add main_test.txt
+   27  git commit -m "Second commit"
+   28  git branch develop
+   29  git checkout -b develop
+   30  git branch
+   31  git chackout
+   32  git chackout develop
+   33  git branch
+   34  git checkout
+   35  git branch
+   36  git checkout develop
+   37  git branch
+   38  touch develop_test.txt
+   39  git add develop_test.txt
+   40  git commit -m "Third commit"
+   41  git ststus
+   42  git status
+   43  git add develop_test.txt file
+   44  git add develop_test.txt
+   45  git commit -m "Fourth commit"
+   46  git checkout main
+   47  git branch
+   48  git merge develop
+   49  git log
+   50  history > command_list.csv
